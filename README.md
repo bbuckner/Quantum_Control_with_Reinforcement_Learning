@@ -16,7 +16,7 @@ A reward of -1 is given on every timestep except for when the agent reaches the 
 See "Hyperparameters and Goal State Specification" section of RL-Quantum-State-Prep.ipynb
 
 # Results:<br>
-The graph below represents the running average score of the past 25 episodes on each episode in the training.  The agent solves the environment optimally on episode 1405 where it obtains an average score of -3 over 25 episodes.  When I set the goal state of the environment it did indeed take me 3 gates (actions) in order to reach it, however I decided to let the agent train longer to see if it would discover an even more optimal circuit.<br>
+The graph below represents the running average score of the past 25 episodes on each episode in the training.  The agent solves the environment optimally on episode 1405 where it obtains an average score of -3 over 25 episodes.  When I set the goal state of the environment it did indeed take me 4 gates (actions) in order to reach it, however I decided to let the agent train longer to see if it would discover an even more optimal circuit.<br>
 ![](images/training_progress.png)<br>
 The short gif below shows an agent making actions in the environment and arriving successfully at the desired state.
 ![](images/test_episode.gif)
